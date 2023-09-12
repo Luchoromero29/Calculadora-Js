@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<title>Calculator</title>
+</head>
+<body >
+
+    <div class="container">
+        <div class="screen_position">
+            <div id='screen' class="screen">
+                0
+            </div>
+        </div>
+        <div class="buttons">
+            
+            <div class="buttons_actions">
+                <div class="C">
+                    <button onclick="cleanScreen()" >C</button>
+                </div>
+                <div class="arrow">
+                    <button onclick="deleteNumber()" id="delete" >←</button>
+                </div>
+                <div class="equals">
+                    <button onclick="result()" >=</button>
+                </div>
+            </div>
+
+            <div class="centro">
+                <div class="buttons_numbers">
+
+                    <div class="grid_principal">
+
+                        <div class="row_1">
+                            <button onclick="addNumber(this)" value="1">1</button>
+                            <button onclick="addNumber(this)" value="2">2</button>
+                            <button onclick="addNumber(this)" value="3">3</button>
+                        </div>
+                    
+                        <div class="row_2">
+                            <button onclick="addNumber(this)" value="4">4</button>
+                            <button onclick="addNumber(this)" value="5">5</button>
+                            <button onclick="addNumber(this)" value="6">6</button>
+                        </div>
+                        <div class="row_3">
+                            <button onclick="addNumber(this)" value="7">7</button>
+                            <button onclick="addNumber(this)" value="8">8</button>
+                            <button onclick="addNumber(this)" value="9">9</button>
+                        </div>
+
+                    </div>
+                    <div class="row_0">
+                        <button onclick="addNumber(this)" value="0" class="0">0</button>
+                    </div>
+            </div>
+                <div class="buttons_operators">
+                    <button onclick="handleOperator(this)" value="/">/</button>
+                    <button onclick="handleOperator(this)" value="*">*</button>
+                    <button onclick="handleOperator(this)" value="+">+</button>
+                    <button onclick="handleOperator(this)" value="-">-</button>
+                </div>
+            </div>
+            </div>
+
+            
+        </div>
+        
+        
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

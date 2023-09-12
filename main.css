@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+
+}
+
+.container{
+    outline: 3px solid white;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    max-width: 350px;
+    background-color: rgba(255, 255, 255, 0.505);
+    border-radius: 1em;
+    margin: 20vh auto;
+    backdrop-filter: blur(50px);
+    text-align: right;
+    padding-top: 2%;
+    
+}
+.screen{
+  margin: auto;
+  background-color: azure;
+  width: 90%;
+  height: 10%;
+  position: relative;
+  top: 3%;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 2em;
+  
+}
+
+.screen_position{
+  position: relative;
+  top: 2%;
+}
+
+
+.buttons{
+  
+  margin: auto;
+  width: 90%;
+  height: 80%;
+}
+
+
+button{
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px white;
+  background-color: white;
+  font-size: 1.7em;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: 0.2s;
+  
+}
+
+button:hover {
+  background-color:rgba(233, 142, 236, 0.217);
+  color: white;
+  
+}
+
+
+.buttons_actions{
+  
+  height: 20%;
+  position: relative;
+  top: 6%;
+  left: -2%;
+  display: flex;
+  
+}
+
+.C{
+  width: 25%;
+}
+
+.C button{
+  position: relative;
+  left: 4%;
+  width: 91%;
+  height: 88%;
+  margin: auto;
+}
+.arrow{
+  width: 50%;
+}
+
+.arrow button{
+  position: relative;
+  left: 1%;
+  height: 88%;
+  width: 95%;
+}
+
+.equals{
+  width: 25%;
+  
+}
+
+.equals button{
+  position: relative;
+  left: 3%;
+  height: 88%;
+  width: 93%;
+}
+
+.equals button:hover{
+  background-color: rgba(238, 210, 88, 0.468);
+}
+
+
+
+.centro{
+  display: flex;
+  height: 81%;
+  position: relative;
+  top: 6%;
+}
+
+.buttons_numbers{
+ 
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.grid_principal{
+  height: 75%;
+  
+}
+
+.grid_principal .row_1 {
+display: flex;
+margin: auto;
+height: 33%;
+}
+
+.grid_principal .row_2 {
+  display: flex;
+  margin: auto;
+  height: 33%;
+  }
+
+  .grid_principal .row_3 {
+    display: flex;
+    margin: auto;
+    height: 33%;
+    }
+
+.row_1 button{
+  height: 89%;
+  width: 30%;
+  margin: auto;
+}
+.row_2 button{
+  position: relative;
+  top: 2%;
+  height: 89%;
+  width: 30%;
+  margin: auto;
+}
+.row_3 button{
+  position: relative;
+  top: 2%;
+  height: 89%;
+  width: 30%;
+  margin: auto;
+}
+.row_0{
+  
+  display: flex;
+  height: 25%;
+}
+
+.row_0 button{
+ height: 89%;
+ width: 96%;
+ margin: auto;
+}
+
+
+
+.buttons_operators{
+  
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons_operators button{
+  height: 22%;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  color: white;
+  top: -0.1%;
+  background-color: rgb(238, 172, 66);
+  
+}
+.buttons_operators button:hover {
+  background-color:rgba(104, 63, 36, 0.813);
+  
+  
+}
+
