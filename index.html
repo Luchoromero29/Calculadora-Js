@@ -32,7 +32,7 @@
                     <button onclick="deleteNumber()" id="delete">←</button>
                 </div>
                 <div class="equals">
-                    <button onclick="result()">=</button>
+                    <button onclick="handleOperator(this)" value="/">/</button>
                 </div>
             </div>
 
@@ -42,9 +42,9 @@
                     <div class="grid_principal">
 
                         <div class="row_1">
-                            <button onclick="addNumber(this)" value="1">1</button>
-                            <button onclick="addNumber(this)" value="2">2</button>
-                            <button onclick="addNumber(this)" value="3">3</button>
+                            <button onclick="addNumber(this)" value="7">7</button>
+                            <button onclick="addNumber(this)" value="8">8</button>
+                            <button onclick="addNumber(this)" value="9">9</button>
                         </div>
 
                         <div class="row_2">
@@ -53,9 +53,9 @@
                             <button onclick="addNumber(this)" value="6">6</button>
                         </div>
                         <div class="row_3">
-                            <button onclick="addNumber(this)" value="7">7</button>
-                            <button onclick="addNumber(this)" value="8">8</button>
-                            <button onclick="addNumber(this)" value="9">9</button>
+                            <button onclick="addNumber(this)" value="1">1</button>
+                            <button onclick="addNumber(this)" value="2">2</button>
+                            <button onclick="addNumber(this)" value="3">3</button>
                         </div>
 
                     </div>
@@ -64,10 +64,10 @@
                     </div>
                 </div>
                 <div class="buttons_operators">
-                    <button onclick="handleOperator(this)" value="/">/</button>
                     <button onclick="handleOperator(this)" value="*">*</button>
                     <button onclick="handleOperator(this)" value="+">+</button>
                     <button onclick="handleOperator(this)" value="-">-</button>
+                    <button onclick="result()">=</button>
                 </div>
             </div>
         </div>

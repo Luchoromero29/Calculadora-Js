@@ -23,6 +23,7 @@ body {
   text-align: right;
   padding-top: 2%;
 }
+
 .screen {
   margin: auto;
   background-color: azure;
@@ -81,6 +82,7 @@ button:hover {
   height: 88%;
   margin: auto;
 }
+
 .arrow {
   width: 50%;
 }
@@ -101,6 +103,8 @@ button:hover {
   left: 3%;
   height: 88%;
   width: 93%;
+  background-color: rgb(238, 172, 66);
+  color: white;
 }
 
 .equals button:hover {
@@ -147,6 +151,7 @@ button:hover {
   width: 30%;
   margin: auto;
 }
+
 .row_2 button {
   position: relative;
   top: 2%;
@@ -154,6 +159,7 @@ button:hover {
   width: 30%;
   margin: auto;
 }
+
 .row_3 button {
   position: relative;
   top: 2%;
@@ -161,6 +167,7 @@ button:hover {
   width: 30%;
   margin: auto;
 }
+
 .row_0 {
   display: flex;
   height: 25%;
@@ -196,4 +203,9 @@ button:hover {
   color: rgba(235, 34, 34, 0.913);
   position: relative;
   text-align: center;
+}
+
+.equlasButtom {
+  background-color: white;
+
 }
